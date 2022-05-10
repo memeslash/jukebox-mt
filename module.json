@@ -1,0 +1,10 @@
+{
+    "disableAutoUpdate": true,
+    "name": "jukebox",
+    "author": "sunflower",
+    "description": "portable music player",
+    "version": "1.0",
+    "options": {
+        "reloadable": true
+    }
+}
