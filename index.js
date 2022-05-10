@@ -76,7 +76,7 @@ module.exports = function jukebox(d) {
     > I opted for nested button options because it declutters the window and organizes the sounds MUCH better.
     > No excuse for the gigantic switch statement. I just don't know much javascript. */
 
-    d.hook('C_DIALOG', '*', {filter: {fake: null} }, (e) => {
+    d.hook('C_DIALOG', '*', {filter: {fake: true} }, (e) => {
         switch(e.questReward) {
             // Starting buttons
             case 10000:
