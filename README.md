@@ -9,6 +9,7 @@ Spawn a jukebox with `/8 jukebox` and interact with it to be on your way.
 ## Installation
 
 * Download this repository and place it in the `/mods/` subfolder of your TERA Toolbox installation.
+* Move the `S_PLAY_SOUND_BYNAME.69.def` file into the `/data/definitions/` subfolder of your TERA Toolbox installation.
 
 ## Commands
 | Main command | Argument(s) | Example | Description |
