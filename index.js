@@ -274,7 +274,6 @@ module.exports = function jukebox(d) {
                     case 11: spawnJukebox(Sounds.Theme.Lobby2); d.command.message(`Now playing Lobby 2 theme BGM!`); break;
                 }
             }
-        return false;
     });
 
     /*#################
